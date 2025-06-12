@@ -10,7 +10,7 @@ import { useNavigate } from 'react-router-dom';
 const JobListings = ({ jobs, pagination, loading, filters, onSaveJob, onApplyJob, onSearch }) => {
   const navigate = useNavigate();
 
-  if (jobs.length === 0 &amp;&amp; !loading) {
+  if (jobs.length === 0 && !loading) {
     return (
       <EmptyState
         iconName="Search"
@@ -21,9 +21,8 @@ const JobListings = ({ jobs, pagination, loading, filters, onSaveJob, onApplyJob
       />
     );
   }
-
-  return (
-    &lt;&gt;
+return (
+    <>
       <div className="flex items-center justify-between mb-6">
         <div>
           <Heading level={2} className="text-2xl">
@@ -53,14 +52,14 @@ const JobListings = ({ jobs, pagination, loading, filters, onSaveJob, onApplyJob
             />
           </motion.div>
         ))}
-      </div>
+</div>
 
-      {loading &amp;&amp; jobs.length > 0 &amp;&amp; (
+      {loading && jobs.length > 0 && (
         <div className="flex justify-center py-8">
           <Loader size="md" color="primary" />
         </div>
       )}
-    </&gt;
+    </>
   );
 };
 

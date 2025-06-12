@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
 import { toast } from 'react-toastify';
 import JobSearchForm from '@/components/organisms/JobSearchForm';
 import JobListings from '@/components/organisms/JobListings';
 import ErrorState from '@/components/organisms/ErrorState';
 import Loader from '@/components/atoms/Loader';
 import { jobService } from '@/services';
-
 const JobsPage = () => {
   const [jobs, setJobs] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -50,7 +50,7 @@ const JobsPage = () => {
     }
   };
 
-  const handleApplyJob = async (job) => {
+const handleApplyJob = async (job) => {
     try {
       // Mock apply functionality
       toast.success(`Applied to ${job.title} at ${job.company}!`);
@@ -59,7 +59,8 @@ const JobsPage = () => {
     }
   };
 
-  if (loading &amp;&amp; jobs.length === 0) {
+
+  if (loading && jobs.length === 0) {
     return (
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
         <div className="lg:col-span-1">
