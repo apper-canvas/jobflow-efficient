@@ -22,15 +22,15 @@ const ProfileBasicInfoSection = ({ profile, onEdit }) => {
               {profile?.name || 'User Name'}
             </Heading>
             <div className="space-y-1 text-gray-600">
-              <InfoItem iconName="Mail" iconClassName="w-4 h-4">
+<InfoItem iconName="Mail" iconClassName="w-4 h-4">
                 {profile?.email || 'No email provided'}
               </InfoItem>
-              {profile?.phone &amp;&amp; (
+              {profile?.phone && (
                 <InfoItem iconName="Phone" iconClassName="w-4 h-4">
                   {profile.phone}
                 </InfoItem>
               )}
-              {profile?.location &amp;&amp; (
+              {profile?.location && (
                 <InfoItem iconName="MapPin" iconClassName="w-4 h-4">
                   {profile.location}
                 </InfoItem>
@@ -47,9 +47,9 @@ const ProfileBasicInfoSection = ({ profile, onEdit }) => {
           <ApperIcon name="Edit" className="w-4 h-4 mr-2" />
           <span>Edit</span>
         </Button>
-      </div>
+</div>
 
-      {profile?.summary &amp;&amp; (
+      {profile?.summary && (
         <div>
           <Heading level={3} className="text-lg mb-2">
             Professional Summary
