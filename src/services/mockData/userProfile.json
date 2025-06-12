@@ -1,0 +1,65 @@
+{
+  "id": "user_1",
+  "name": "Alex Johnson",
+  "email": "alex.johnson@email.com",
+  "phone": "(555) 123-4567",
+  "location": "San Francisco, CA",
+  "summary": "Experienced frontend developer with 5+ years of experience building responsive web applications using React, TypeScript, and modern frontend technologies. Passionate about creating exceptional user experiences and writing clean, maintainable code.",
+  "skills": [
+    "React",
+    "TypeScript",
+    "JavaScript",
+    "Node.js",
+    "HTML/CSS",
+    "Tailwind CSS",
+    "Git",
+    "Redux",
+    "Next.js",
+    "GraphQL",
+    "REST APIs",
+    "Jest"
+  ],
+  "experience": [
+    {
+      "id": "exp_1",
+      "title": "Senior Frontend Developer",
+      "company": "TechCorp Inc",
+      "location": "San Francisco, CA",
+      "startDate": "2022-03",
+      "endDate": null,
+      "current": true,
+      "description": "Lead frontend development for enterprise web applications serving 100k+ users. Implemented responsive designs and performance optimizations resulting in 40% improvement in page load times."
+    },
+    {
+      "id": "exp_2",
+      "title": "Frontend Developer",
+      "company": "WebSolutions Ltd",
+      "location": "San Jose, CA",
+      "startDate": "2020-01",
+      "endDate": "2022-02",
+      "current": false,
+      "description": "Developed and maintained React-based web applications. Collaborated with UX designers to implement pixel-perfect designs and worked closely with backend team to integrate APIs."
+    },
+    {
+      "id": "exp_3",
+      "title": "Junior Web Developer",
+      "company": "StartupXYZ",
+      "location": "Palo Alto, CA",
+      "startDate": "2019-06",
+      "endDate": "2019-12",
+      "current": false,
+      "description": "Built responsive websites and web applications using HTML, CSS, JavaScript, and React. Gained experience in agile development methodologies and version control with Git."
+    }
+  ],
+  "education": [
+    {
+      "id": "edu_1",
+      "institution": "University of California, Berkeley",
+      "degree": "Bachelor of Science",
+      "field": "Computer Science",
+      "startDate": "2015-09",
+      "endDate": "2019-05",
+      "gpa": "3.7"
+    }
+  ]
+}

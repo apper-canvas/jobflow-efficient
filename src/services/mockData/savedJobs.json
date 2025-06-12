@@ -1,0 +1,17 @@
+[
+  {
+    "id": "saved_1",
+    "jobId": "2",
+    "savedDate": "2024-01-15T14:20:00Z"
+  },
+  {
+    "id": "saved_2",
+    "jobId": "4",
+    "savedDate": "2024-01-13T10:30:00Z"
+  },
+  {
+    "id": "saved_3",
+    "jobId": "6",
+    "savedDate": "2024-01-11T16:15:00Z"
+  }
+]

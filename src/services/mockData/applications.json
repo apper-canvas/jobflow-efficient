@@ -1,0 +1,26 @@
+[
+  {
+    "id": "app_1",
+    "jobId": "1",
+    "resumeId": "resume_1",
+    "coverLetter": "I am excited to apply for the Senior Frontend Developer position at TechFlow Solutions. With my 5+ years of experience in React and TypeScript, I believe I would be a great fit for your team.",
+    "appliedDate": "2024-01-16T09:30:00Z",
+    "status": "applied"
+  },
+  {
+    "id": "app_2",
+    "jobId": "3",
+    "resumeId": "resume_1",
+    "coverLetter": "I am interested in the UX/UI Designer position and believe my frontend development background would bring valuable technical insights to the design process.",
+    "appliedDate": "2024-01-14T11:15:00Z",
+    "status": "viewed"
+  },
+  {
+    "id": "app_3",
+    "jobId": "8",
+    "resumeId": "resume_2",
+    "coverLetter": "While my experience is primarily in frontend development, I have significant experience with Node.js and backend technologies that would make me a strong candidate for this role.",
+    "appliedDate": "2024-01-12T16:45:00Z",
+    "status": "interview"
+  }
+]

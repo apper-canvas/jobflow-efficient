@@ -1,0 +1,170 @@
+[
+  {
+    "id": "1",
+    "title": "Senior Frontend Developer",
+    "company": "TechFlow Solutions",
+    "location": "San Francisco, CA",
+    "salary": "$120,000 - $150,000",
+    "type": "full-time",
+    "experience": "senior",
+    "description": "We are looking for a Senior Frontend Developer to join our dynamic team. You will be responsible for building responsive web applications using React, TypeScript, and modern frontend technologies. This role involves collaborating with designers and backend developers to create exceptional user experiences.",
+    "requirements": [
+      "5+ years of experience with React and JavaScript",
+      "Strong knowledge of TypeScript and modern ES6+",
+      "Experience with state management (Redux, Context API)",
+      "Proficient in CSS frameworks (Tailwind, Styled Components)",
+      "Understanding of web performance optimization",
+      "Experience with testing frameworks (Jest, React Testing Library)",
+      "Knowledge of CI/CD processes and Git workflows",
+      "Bachelor's degree in Computer Science or equivalent experience"
+    ],
+    "postedDate": "2024-01-15T10:00:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Product Manager",
+    "company": "InnovateCorp",
+    "location": "New York, NY",
+    "salary": "$110,000 - $140,000",
+    "type": "full-time",
+    "experience": "mid-level",
+    "description": "Join our product team as a Product Manager where you'll drive product strategy and execution for our SaaS platform. You'll work closely with engineering, design, and marketing teams to deliver features that delight our customers and drive business growth.",
+    "requirements": [
+      "3+ years of product management experience",
+      "Experience with SaaS products and B2B markets",
+      "Strong analytical skills and data-driven decision making",
+      "Excellent communication and stakeholder management",
+      "Experience with product analytics tools (Mixpanel, Amplitude)",
+      "Understanding of agile development methodologies",
+      "MBA or relevant technical background preferred",
+      "Experience with user research and customer interviews"
+    ],
+    "postedDate": "2024-01-14T14:30:00Z"
+  },
+  {
+    "id": "3",
+    "title": "UX/UI Designer",
+    "company": "DesignStudio Pro",
+    "location": "Austin, TX",
+    "salary": "$85,000 - $110,000",
+    "type": "full-time",
+    "experience": "mid-level",
+    "description": "We're seeking a talented UX/UI Designer to create intuitive and visually appealing digital experiences. You'll be responsible for the entire design process from user research to final implementation, working on both web and mobile applications.",
+    "requirements": [
+      "3+ years of UX/UI design experience",
+      "Proficiency in Figma, Sketch, and Adobe Creative Suite",
+      "Strong portfolio demonstrating design thinking process",
+      "Experience with user research and usability testing",
+      "Knowledge of design systems and component libraries",
+      "Understanding of frontend technologies (HTML, CSS, JavaScript)",
+      "Excellent visual design skills and attention to detail",
+      "Degree in Design, HCI, or related field"
+    ],
+    "postedDate": "2024-01-13T09:15:00Z"
+  },
+  {
+    "id": "4",
+    "title": "Data Scientist",
+    "company": "DataDriven Analytics",
+    "location": "Seattle, WA",
+    "salary": "$130,000 - $160,000",
+    "type": "full-time",
+    "experience": "senior",
+    "description": "Looking for a Data Scientist to join our analytics team and help drive data-informed decisions across the organization. You'll work with large datasets, build predictive models, and communicate insights to stakeholders at all levels.",
+    "requirements": [
+      "PhD/Masters in Statistics, Mathematics, or Computer Science",
+      "5+ years of experience in data science and machine learning",
+      "Proficiency in Python, R, and SQL",
+      "Experience with ML frameworks (TensorFlow, PyTorch, scikit-learn)",
+      "Strong statistical analysis and modeling skills",
+      "Experience with big data technologies (Spark, Hadoop)",
+      "Excellent communication and data visualization skills",
+      "Experience with cloud platforms (AWS, GCP, Azure)"
+    ],
+    "postedDate": "2024-01-12T16:45:00Z"
+  },
+  {
+    "id": "5",
+    "title": "Marketing Coordinator",
+    "company": "GrowthHub Marketing",
+    "location": "Remote",
+    "salary": "$50,000 - $65,000",
+    "type": "full-time",
+    "experience": "entry",
+    "description": "Join our marketing team as a Marketing Coordinator where you'll support various marketing initiatives including content creation, social media management, and campaign execution. This is a great opportunity for someone looking to grow their marketing career.",
+    "requirements": [
+      "1-2 years of marketing experience or relevant internships",
+      "Strong written and verbal communication skills",
+      "Experience with social media platforms and content creation",
+      "Basic knowledge of digital marketing tools (Google Analytics, HubSpot)",
+      "Proficiency in Microsoft Office and Google Workspace",
+      "Creative thinking and attention to detail",
+      "Bachelor's degree in Marketing, Communications, or related field",
+      "Ability to work independently in a remote environment"
+    ],
+    "postedDate": "2024-01-11T11:20:00Z"
+  },
+  {
+    "id": "6",
+    "title": "DevOps Engineer",
+    "company": "CloudScale Systems",
+    "location": "Denver, CO",
+    "salary": "$100,000 - $130,000",
+    "type": "full-time",
+    "experience": "mid-level",
+    "description": "We're looking for a DevOps Engineer to help streamline our development and deployment processes. You'll work with containerization, CI/CD pipelines, and cloud infrastructure to ensure reliable and scalable systems.",
+    "requirements": [
+      "3+ years of DevOps or infrastructure experience",
+      "Strong knowledge of containerization (Docker, Kubernetes)",
+      "Experience with CI/CD tools (Jenkins, GitLab CI, GitHub Actions)",
+      "Proficiency with cloud platforms (AWS, Azure, GCP)",
+      "Infrastructure as Code experience (Terraform, CloudFormation)",
+      "Monitoring and logging tools experience (Prometheus, ELK stack)",
+      "Scripting skills in Python, Bash, or PowerShell",
+      "Understanding of security best practices"
+    ],
+    "postedDate": "2024-01-10T13:10:00Z"
+  },
+  {
+    "id": "7",
+    "title": "Sales Development Representative",
+    "company": "SalesForce Pro",
+    "location": "Chicago, IL",
+    "salary": "$45,000 - $60,000 + Commission",
+    "type": "full-time",
+    "experience": "entry",
+    "description": "Join our sales team as an SDR where you'll be responsible for generating and qualifying leads for our enterprise software solutions. This role offers excellent growth opportunities and comprehensive sales training.",
+    "requirements": [
+      "Bachelor's degree or equivalent experience",
+      "1+ years of sales or customer service experience preferred",
+      "Excellent communication and interpersonal skills",
+      "Strong phone presence and professional demeanor",
+      "Self-motivated with a results-driven approach",
+      "Experience with CRM software (Salesforce, HubSpot)",
+      "Ability to work in a fast-paced environment",
+      "Goal-oriented with strong organizational skills"
+    ],
+    "postedDate": "2024-01-09T08:30:00Z"
+  },
+  {
+    "id": "8",
+    "title": "Backend Developer",
+    "company": "ServerSide Solutions",
+    "location": "Portland, OR",
+    "salary": "$95,000 - $120,000",
+    "type": "full-time",
+    "experience": "mid-level",
+    "description": "We're seeking a Backend Developer to build and maintain scalable server-side applications. You'll work with microservices architecture, databases, and APIs to support our growing platform.",
+    "requirements": [
+      "3+ years of backend development experience",
+      "Proficiency in Node.js, Python, or Java",
+      "Experience with RESTful APIs and GraphQL",
+      "Strong database skills (PostgreSQL, MongoDB)",
+      "Knowledge of microservices architecture",
+      "Experience with message queues (RabbitMQ, Kafka)",
+      "Understanding of security best practices",
+      "Experience with testing frameworks and TDD"
+    ],
+    "postedDate": "2024-01-08T15:45:00Z"
+  }
+]
