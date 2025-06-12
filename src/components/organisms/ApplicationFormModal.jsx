@@ -104,12 +104,12 @@ const ApplicationFormModal = ({ job, isOpen, onClose, onSubmit }) => {
                     className="mr-3"
                   />
                   <div className="flex-1">
-                    <div className="flex items-center">
+<div className="flex items-center">
                       <ApperIcon name="FileText" className="w-5 h-5 text-gray-400 mr-2" />
                       <span className="font-medium text-gray-900">
                         {resume.filename}
                       </span>
-                      {resume.isPrimary &amp;&amp; (
+                      {resume.isPrimary && (
                         <span className="ml-2 px-2 py-1 bg-primary/10 text-primary text-xs rounded-full">
                           Primary
                         </span>
