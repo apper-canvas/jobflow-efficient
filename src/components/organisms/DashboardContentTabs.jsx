@@ -7,9 +7,8 @@ const DashboardContentTabs = ({ activeTab, onTabChange, savedJobsCount, applicat
     { id: 'saved', label: 'Saved Jobs', count: savedJobsCount },
     { id: 'applications', label: 'Applications', count: applicationsCount }
   ];
-
-  return (
-    &lt;&gt;
+return (
+    <>
       <div className="flex space-x-1 mb-8">
         {tabs.map((tab) => (
           <TabButton
@@ -31,7 +30,7 @@ const DashboardContentTabs = ({ activeTab, onTabChange, savedJobsCount, applicat
       >
         {children}
       </motion.div>
-    </&gt;
+    </>
   );
 };
 
