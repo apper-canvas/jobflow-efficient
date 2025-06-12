@@ -20,12 +20,12 @@ const ResumeUploadSection = ({ onFileUpload, uploading }) => {
     }
   };
 
-  const handleDrop = (e) => {
+const handleDrop = (e) => {
     e.preventDefault();
     e.stopPropagation();
     setDragActive(false);
     
-    if (e.dataTransfer.files &amp;&amp; e.dataTransfer.files[0]) {
+    if (e.dataTransfer.files && e.dataTransfer.files[0]) {
       onFileUpload(e.dataTransfer.files);
     }
   };
