@@ -1,10 +1,10 @@
-import Home from '../pages/Home';
-import Jobs from '../pages/Jobs';
-import Dashboard from '../pages/Dashboard';
-import Profile from '../pages/Profile';
-import Resumes from '../pages/Resumes';
-import JobDetail from '../pages/JobDetail';
-import NotFound from '../pages/NotFound';
+import HomePage from '@/components/pages/HomePage';
+import JobsPage from '@/components/pages/JobsPage';
+import DashboardPage from '@/components/pages/DashboardPage';
+import ProfilePage from '@/components/pages/ProfilePage';
+import ResumesPage from '@/components/pages/ResumesPage';
+import JobDetailPage from '@/components/pages/JobDetailPage';
+import NotFoundPage from '@/components/pages/NotFoundPage';
 
 export const routes = {
   home: {
@@ -12,48 +12,48 @@ export const routes = {
     label: 'Home',
     path: '/',
     icon: 'Home',
-    component: Home
+    component: HomePage
   },
   jobs: {
     id: 'jobs',
     label: 'Jobs',
     path: '/jobs',
     icon: 'Briefcase',
-    component: Jobs
+    component: JobsPage
   },
   dashboard: {
     id: 'dashboard', 
     label: 'Dashboard',
     path: '/dashboard',
     icon: 'LayoutDashboard',
-    component: Dashboard
+    component: DashboardPage
   },
   profile: {
     id: 'profile',
     label: 'Profile', 
     path: '/profile',
     icon: 'User',
-    component: Profile
+    component: ProfilePage
   },
   resumes: {
     id: 'resumes',
     label: 'Resumes',
     path: '/resumes',
     icon: 'FileText',
-    component: Resumes
+    component: ResumesPage
   },
   jobDetail: {
     id: 'jobDetail',
     label: 'Job Detail',
     path: '/jobs/:id',
-    component: JobDetail,
+    component: JobDetailPage,
     hidden: true
   },
   notFound: {
     id: 'notFound',
     label: '404',
     path: '*',
-    component: NotFound,
+    component: NotFoundPage,
     hidden: true
   }
 };
