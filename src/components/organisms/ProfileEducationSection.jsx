@@ -40,9 +40,9 @@ const ProfileEducationSection = ({ profile, onEdit, onDelete }) => {
                     {edu.degree} in {edu.field}
                   </Heading>
                   <Paragraph className="text-secondary font-medium mb-1">{edu.institution}</Paragraph>
-                  <Paragraph className="text-sm text-gray-600">
+<Paragraph className="text-sm text-gray-600">
                     {edu.startDate} - {edu.endDate}
-                    {edu.gpa &amp;&amp; ` • GPA: ${edu.gpa}`}
+                    {edu.gpa && ` • GPA: ${edu.gpa}`}
                   </Paragraph>
                 </div>
                 <div className="flex space-x-2 ml-4">

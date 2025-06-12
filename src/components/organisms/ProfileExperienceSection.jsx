@@ -43,7 +43,7 @@ const ProfileExperienceSection = ({ profile, onEdit, onDelete }) => {
                   <Paragraph className="text-sm text-gray-600 mb-2">
                     {exp.location} • {exp.startDate} - {exp.current ? 'Present' : exp.endDate}
                   </Paragraph>
-                  {exp.description &amp;&amp; (
+{exp.description && (
                     <Paragraph className="leading-relaxed">{exp.description}</Paragraph>
                   )}
                 </div>
